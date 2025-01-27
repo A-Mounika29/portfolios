@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Container = styled.div`
   width: 650px;
   border-radius: 10px;
-  box-shadow: 0 4px 24px rgb(221, 167, 206);
+  box-shadow: 0 4px 24px rgb(190,96,45);
   padding: 12px 16px;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ const Container = styled.div`
   }
 
   &:hover {
-    box-shadow: 0 0 20px rgba(210, 59, 150, 0.2);
+    box-shadow: 0 0 20px rgba(171,87,42,0.84);
     transform: translateY(-5px);
   }
 
@@ -32,7 +32,7 @@ const Container = styled.div`
     -webkit-line-clamp: unset;
   }
 
-  border: 0.1px solid rgb(147, 87, 250);
+  border: 0.1px solid rgb(188,115,60);
 `;
 
 const Top = styled.div`
