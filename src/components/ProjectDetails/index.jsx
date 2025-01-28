@@ -9,7 +9,7 @@ height: 100%;
 position: absolute;
 top: 0;
 left: 0;
-background-color:rgba(158, 5, 138, 0.56);
+background-color:rgba(200, 175, 65, 0.56);
 display: flex;
 align-items: top;
 justify-content: center;
@@ -51,9 +51,6 @@ const Date = styled.div`
         font-size: 12px;
     }
 `
-
-
-
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
@@ -70,7 +67,7 @@ const Image = styled.img`
     object-fit: cover;
     border-radius: 12px;
     margin-top: 30px;
-    box-shadow: 0px 0px 10px 0px rgb(219, 31, 159);
+    box-shadow: 0px 0px 10px 0px rgb(207, 146, 53);
 `;
 
 const Label = styled.div`
@@ -129,7 +126,7 @@ const MemberImage = styled.img`
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 4px;
-    box-shadow: 0px 0px 10px 0px rgba(199, 30, 165, 0.95);
+    box-shadow: 0px 0px 10px 0px rgba(157, 100, 31, 0.95);
     @media only screen and (max-width: 600px) {
         width: 32px;
         height: 32px;
