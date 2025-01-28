@@ -5,7 +5,7 @@ const Button = styled.button`
   display: none;
   width: 100%;
   padding: 10px;
-  background-color: ${({ theme }) => theme.white};
+  background-color: ${({ theme }) => theme.lightpink};
   color: ${({ theme }) => theme.text_black};
   font-size: 14px;
   font-weight: 700;
@@ -21,7 +21,7 @@ const Card = styled.div`
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
-  box-shadow: 0 0 12px 4px rgba(81, 29, 91, 0.4);
+  box-shadow: 0 0 12px 4px rgba(153,94,42,0.57);
   overflow: hidden;
   padding: 26px 20px;
   display: flex;
@@ -31,7 +31,7 @@ const Card = styled.div`
 
   &:hover {
     transform: translateY(-10px);
-    box-shadow: 0 0 50px 4px rgba(88, 58, 85, 0.6);
+    box-shadow: 0 0 50px 4px rgba(215,141,67,0.6);
     filter: brightness(1.1);
   }
 
@@ -45,7 +45,7 @@ const Image = styled.img`
   height: 180px;
   background-color: ${({ theme }) => theme.white};
   border-radius: 10px;
-  box-shadow: 0 0 16px 2px rgba(94, 58, 92, 0.3);
+  box-shadow: 0 0 16px 2px rgba(198,114,69,0.76);
 `;
 
 const Tags = styled.div`
@@ -119,7 +119,7 @@ const Avatar = styled.img`
   border-radius: 50%;
   margin-left: -10px;
   background-color: ${({ theme }) => theme.white};
-  box-shadow: 0 0 10px rgba(81, 52, 75, 0.2);
+  box-shadow: 0 0 10px rgba(167, 119, 37, 0.41);
   border: 3px solid ${({ theme }) => theme.card};
 `;
 
