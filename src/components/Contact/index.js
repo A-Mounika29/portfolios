@@ -107,10 +107,10 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: rgb(186, 63, 175);
-  background: linear-gradient(225deg, rgb(196, 92, 161) 0%, rgb(158, 49, 129) 100%);
-  background: -moz-linear-gradient(225deg, rgb(195, 94, 171) 0%, rgb(151, 62, 136) 100%);
-  background: -webkit-linear-gradient(225deg, rgb(178, 86, 155) 0%, rgb(141, 46, 108) 100%);
+  background: rgb(174, 109, 40);
+  background: linear-gradient(225deg, rgb(158, 116, 37) 0%, rgb(165, 112, 25) 100%);
+  background: -moz-linear-gradient(225deg, rgb(200, 113, 37) 0%, rgb(155, 123, 26) 100%);
+  background: -webkit-linear-gradient(225deg, rgb(184, 161, 48) 0%, rgb(147, 125, 18) 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
