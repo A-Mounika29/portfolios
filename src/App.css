@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -26,16 +24,16 @@ body{
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background:#fe42df;
+    background:#e0d03e;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #fc5fff;
+    background: #c4ca5c;
     border-radius: 6px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #f46af2;
+    background: #867624;
   }
